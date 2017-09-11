@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
 	has_many :genders
-	has_many :final_users, through: :genders
+	has_many :users, through: :genders
 
 
   enum role: {guest: 0, basic: 1, admin: 2}
