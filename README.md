@@ -21,4 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
+https://git.heroku.com/pruebarails3.git
+
 * ...
